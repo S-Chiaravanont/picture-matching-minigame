@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}", // Ensure this includes .tsx files for TypeScript
+  ],
   theme: {
-    extend: {},
+    extend: {
+      "invert-50": "invert(50%)"
+    },
   },
   plugins: [],
-}
-
+};
