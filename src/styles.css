@@ -1,0 +1,13 @@
+.imgCardDiv {
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+}
+
+.hideCard {
+    filter: invert(50%);
+}
+
+.selectedCard {
+    border-radius: 1px solid black;
+    filter: invert(0%);
+}

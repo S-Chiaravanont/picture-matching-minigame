@@ -6,7 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      "invert-50": "invert(50%)"
     },
   },
   plugins: [],
